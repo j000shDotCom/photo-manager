@@ -1,7 +1,11 @@
 {
-  "name": "manager",
-  "version": "0.1.0",
-  "private": true,
+  "name": "photo-manager",
+  "version": "0.0.1",
+  "description": "Manage photo duplicates",
+  "main": "src/index.js",
+  "repository": "git@github.com:j000shDotCom/photo-manager.git",
+  "author": "Josh Lindsay",
+  "license": "GPL-3.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -14,7 +18,9 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "@percy/cli": "^1.0.0-beta.68",
+    "sqlite3": "^5.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
